@@ -1,7 +1,6 @@
 from pathlib import Path
 import csv
 from datetime import datetime
-#import plotly.express as px
 
 import matplotlib.pyplot as plt
 
@@ -50,7 +49,6 @@ def city_comparison():
     
     plt.savefig('citycomparison.png', bbox_inches='tight')
     plt.show()
-
 
 '''
     Exercise 16-4: Automated Indexes

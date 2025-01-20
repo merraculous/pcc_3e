@@ -11,6 +11,8 @@ lang = ""
 
 while lang != "none":
     lang = input("What language do you want to explore? (enter 'none' if done) ")
+    if lang == "none":
+        break
 
     # Make an API call and check the response.
     url = "https://api.github.com/search/repositories"

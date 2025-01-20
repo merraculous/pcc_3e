@@ -4,7 +4,11 @@ from datetime import datetime
 
 import matplotlib.pyplot as plt
 
-
+'''
+    sitka_highs_lows:
+        Read CSV file for Sitka Weather and show high and low 
+        temperatures for 2021.
+'''
 path = Path('weather_data/sitka_weather_2021_simple.csv')
 lines = path.read_text().splitlines()
 

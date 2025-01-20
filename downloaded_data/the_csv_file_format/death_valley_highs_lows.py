@@ -4,7 +4,11 @@ from datetime import datetime
 
 import matplotlib.pyplot as plt
 
-
+'''
+    death_valley_high_lows:
+        Read CSV for Death Valley weather and create plot of 
+        high and low tempteratures in 2021.
+'''
 path = Path('weather_data/death_valley_2021_simple.csv')
 lines = path.read_text().splitlines()
 
